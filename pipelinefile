@@ -8,7 +8,7 @@ git "https://github.com/UshaNarayana/Jenkinsrepo.git"
 echo 'Running on stage #0'
 }
 else{
-build 'declarative pipeline'
+build 'pipeline-pro'
 echo 'Running on stage #1'
 }}
 }
