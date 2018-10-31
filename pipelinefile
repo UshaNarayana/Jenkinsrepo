@@ -1,6 +1,14 @@
-public class usha{
-public static void main(String[] args)
+node{
+for (int i=0;i<2;i++){
+stage "stage #"+i
+print 'Hello, world !'
+if(i==0)
 {
-System.out.println("good evening all");
+git "https://github.com/UshaNarayana/Jenkinsrepo.git"
+echo 'Running on stage #0'
 }
+else{
+build 'declarative pipeline'
+echo 'Running on stage #1'
+}}
 }
